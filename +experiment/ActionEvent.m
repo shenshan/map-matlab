@@ -1,9 +1,7 @@
 %{
 # 
--> Experiment.BehaviorTrial
--> Experiment.BehaviorTrial
--> Experiment.ActionEventType
--> Experiment.ActionEventType
+-> experiment.BehaviorTrial
+-> experiment.ActionEventType
 action_event_time           : decimal(8,4)                  # (s) from trial start
 %}
 

@@ -1,9 +1,9 @@
 %{
 # Electrode
--> Experiment.Session
+-> experiment.Session
 electrode_group             : tinyint                       # Electrode_group is like the probe
 ---
--> Ephys.Probe
+-> ephys.Probe
 %}
 
 

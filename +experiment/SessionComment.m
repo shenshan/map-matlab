@@ -1,7 +1,6 @@
 %{
 # 
--> Experiment.Session
--> Experiment.Session
+-> experiment.Session
 session_comment             : varchar(767)                  # 
 %}
 

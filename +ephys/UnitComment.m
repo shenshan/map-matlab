@@ -1,6 +1,6 @@
 %{
 # 
--> Ephys.Unit
+-> ephys.Unit
 unit_comment                : varchar(767)                  # 
 %}
 

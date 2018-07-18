@@ -1,15 +1,15 @@
 %{
 # my newest table
--> Ephys.ElectrodeGroup
+-> ephys.ElectrodeGroup
 electrode: smallint # sites on the electrode
 -----
 # add additional attributes
 %}
 
-classdef Electrode < dj.Part
+classdef ElectrodeGroupElectrode < dj.Part
 
 	properties(SetAccess=protected)
-		master= Ephys.ElectrodeGroup
+		master= ephys.ElectrodeGroup
 	end
 
 end

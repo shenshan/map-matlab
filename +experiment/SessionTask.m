@@ -1,9 +1,7 @@
 %{
 # 
--> Experiment.Session
--> Experiment.Session
--> Experiment.TaskProtocol
--> Experiment.TaskProtocol
+-> experiment.Session
+-> experiment.TaskProtocol
 %}
 
 

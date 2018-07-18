@@ -1,16 +1,16 @@
 %{
 # Time stamp of each spike relative to the trial start
--> Ephys.Unit
+-> ephys.Unit
 spike_time : decimal(9,4)   # (s)
 ---
--> Ephys.ElectrodeGroup.Electrode
--> Experiment.SessionTrial
+-> ephys.ElectrodeGroupElectrode
+-> experiment.SessionTrial
 %}
 
 classdef UnitSpike < dj.Part
 
 	properties(SetAccess=protected)
-		master= Ephys.Unit
+		master= ephys.Unit
 	end
 
 end

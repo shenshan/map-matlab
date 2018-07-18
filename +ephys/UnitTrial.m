@@ -1,7 +1,7 @@
 %{
 # my newest table
--> Ephys.Unit
--> Experiment.SessionTrial
+-> ephys.Unit
+-> experiment.SessionTrial
 -----
 # add additional attributes
 %}
@@ -9,7 +9,7 @@
 classdef UnitTrial < dj.Part
 
 	properties(SetAccess=protected)
-		master= Ephys.Unit
+		master= ephys.Unit
 	end
 
 end

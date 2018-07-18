@@ -1,9 +1,7 @@
 %{
 # 
--> Experiment.SessionTrial
--> Experiment.SessionTrial
--> Experiment.TrialNoteType
--> Experiment.TrialNoteType
+-> experiment.SessionTrial
+-> experiment.TrialNoteType
 ---
 trial_note                  : varchar(255)                  # 
 %}

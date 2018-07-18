@@ -1,7 +1,6 @@
 %{
 # 
--> Experiment.PhotostimTrial
--> Experiment.PhotostimTrial
+-> experiment.PhotostimTrial
 %}
 
 

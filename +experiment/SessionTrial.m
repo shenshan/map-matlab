@@ -1,7 +1,7 @@
 %{
 # 
--> Experiment.Session
--> Experiment.Session
+-> experiment.Session
+-> experiment.Session
 trial                       : smallint                      # trial number
 ---
 trial_uid                   : int                           # unique across sessions/animals

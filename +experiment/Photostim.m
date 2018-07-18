@@ -1,10 +1,8 @@
 %{
 # 
--> Experiment.PhotostimDevice
--> Experiment.PhotostimDevice
+-> experiment.PhotostimDevice
 photo_stim                  : smallint                      # 
 ---
--> `map_ccf_test1`.`#c_c_f`
 -> `map_ccf_test1`.`#c_c_f`
 duration                    : decimal(8,4)                  # (s)
 waveform                    : longblob                      # normalized to maximal power. The value of the maximal power is specified for each PhotostimTrialEvent individually

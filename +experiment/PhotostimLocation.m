@@ -1,7 +1,6 @@
 %{
 # 
--> Experiment.Photostim
--> Experiment.Photostim
+-> experiment.Photostim
 ---
 -> `map_lab_test1`.`#hemisphere`
 -> `map_lab_test1`.`#hemisphere`

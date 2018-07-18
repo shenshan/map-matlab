@@ -1,15 +1,10 @@
 %{
 # 
--> Experiment.SessionTrial
--> Experiment.SessionTrial
+-> experiment.SessionTrial
 ---
--> Experiment.TaskProtocol
--> Experiment.TaskProtocol
--> Experiment.TrialInstruction
--> Experiment.TrialInstruction
--> Experiment.EarlyLick
--> Experiment.EarlyLick
--> Experiment.Outcome
+-> experiment.TaskProtocol
+-> experiment.TrialInstruction
+-> experiment.EarlyLick
 -> Experiment.Outcome
 %}
 

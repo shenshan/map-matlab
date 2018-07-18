@@ -1,7 +1,6 @@
 %{
 # 
 -> Experiment.SessionTrial
--> Experiment.SessionTrial
 %}
 
 

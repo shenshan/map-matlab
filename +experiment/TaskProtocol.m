@@ -1,7 +1,7 @@
 %{
 # SessionType
--> Experiment.Task
--> Experiment.Task
+-> experiment.Task
+-> experiment.Task
 task_protocol               : tinyint                       # task protocol
 ---
 task_protocol_description   : varchar(4000)                 # 

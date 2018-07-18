@@ -1,10 +1,10 @@
 %{
 # Sorted unit
--> Ephys.ElectrodeGroup
+-> ephys.ElectrodeGroup
 unit                        : smallint                      # 
 ---
 unit_uid                    : int                           # unique across sessions/animals
--> Ephys.UnitQualityType
+-> ephys.UnitQualityType
 unit_channel=null           : float                         # channel on the electrode for which the unit has the largest amplitude
 spike_times                 : longblob                      # (s)
 waveform                    : blob                          # average spike waveform

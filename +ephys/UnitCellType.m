@@ -1,8 +1,8 @@
 %{
 # 
--> Ephys.Unit
+-> ephys.Unit
 ---
--> Ephys.CellType
+-> ephys.CellType
 %}
 
 

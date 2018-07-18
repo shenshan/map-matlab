@@ -1,9 +1,7 @@
 %{
 # 
--> Experiment.Session
--> Experiment.Session
--> Experiment.TrainingType
--> Experiment.TrainingType
+-> experiment.Session
+-> experiment.TrainingType
 %}
 
 

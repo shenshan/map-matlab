@@ -1,6 +1,6 @@
 %{
 # 
--> Ephys.ElectrodeGroupElectrode
+-> ephys.ElectrodeGroupElectrode
 ---
 -> `map_ccf_test1`.`#c_c_f`
 %}

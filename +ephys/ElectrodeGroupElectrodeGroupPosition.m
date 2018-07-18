@@ -1,9 +1,9 @@
 %{
 # my newest table
--> Ephys.ElectrodeGroup
--> CCF.CCF
+-> ephys.ElectrodeGroup
+-> ccf.CCF
 -----
--> Lab.SkullReference
+-> lab.SkullReference
 ml_location = null : decimal(8,3) # um from ref ; right is positive; based on manipulator coordinates/reconstructed track
 ap_location = null : decimal(8,3) # um from ref; anterior is positive; based on manipulator coordinates/reconstructed track
 dv_location = null : decimal(8,3) # um from dura; ventral is positive; based on manipulator coordinates/reconstructed track
@@ -11,10 +11,10 @@ ml_angle = null    : decimal(8,3) # Angle between the manipulator/reconstructed 
 ap_angle = null    : decimal(8,3) # Angle between the manipulator/reconstructed track and the Anterior-Posterior axis. An anterior tilt is positive.
 %}
 
-classdef ElectrodeGroupPosition < dj.Part
+classdef ElectrodeGroupElectrodeGroupPosition < dj.Part
 
 	properties(SetAccess=protected)
-		master= Ephys.ElectrodeGroup
+		master= ephys.ElectrodeGroup
 	end
 
 end
